@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw09_local_temp/src/main/java/org/cis1200/Game.java">
+</file>
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw09_local_temp/src/main/java/org/cis1200/twofoureight/Test.java">
+<error line="8" column="8" severity="warning" message="Unused import - java.nio.Buffer." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="10" column="8" severity="warning" message="Unused import - java.util.LinkedList." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="11" column="8" severity="warning" message="Unused import - java.util.NoSuchElementException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="13" column="8" severity="warning" message="Unused import - javax.swing.border.BevelBorder." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw09_local_temp/src/main/java/org/cis1200/twofoureight/RunTwoFourEight.java">
+</file>
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw09_local_temp/src/main/java/org/cis1200/twofoureight/GameBoardFinal.java">
+<error line="7" column="8" severity="warning" message="Unused import - java.nio.Buffer." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="171" column="41" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="264" column="9" severity="warning" message="WhitespaceAround: &apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>

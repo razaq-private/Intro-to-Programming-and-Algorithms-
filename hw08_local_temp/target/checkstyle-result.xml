@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.2.1">
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw08_local_temp/src/main/java/org/cis1200/MarkovChain.java">
+<error line="3" column="8" severity="warning" message="Unused import - java.io.IOException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw08_local_temp/src/main/java/org/cis1200/TwitterBot.java">
+</file>
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw08_local_temp/src/main/java/org/cis1200/TweetParser.java">
+<error line="208" column="38" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw08_local_temp/src/main/java/org/cis1200/FileLineIterator.java">
+<error line="3" column="8" severity="warning" message="Unused import - java.io.FileNotFoundException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="/Users/raribidesi/Desktop/School/Senior Year/CIS 120/hw08_local_temp/src/test/java/org/cis1200/FileLineIteratorTest.java">
+</file>
+</checkstyle>

@@ -1,0 +1,93 @@
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+CIS 1200 HW07 README
+PennKey: raribide
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+
+============
+=: Task 2 :=
+============
+
+- Do you plan on creating any new classes in your design? If so, what classes
+  are you making, what do they store, and what behaviors do they have?
+
+I initially am not going to make any new classes because I am able to manipulate the values in the base class.
+I later changed this to create a class that would have the manipulation for the classes. I would be able to store all of
+my getter and setter functions in this class that can be called from the ServerModel class.
+
+- How do you plan on storing what users are registered on the server?
+
+The users can be stored using a Map. THis is because they each have a unique id and this can be stored
+using the value in a map.
+
+- How do you plan on keeping track of which user has which user ID, considering the fact that the user's nickname can
+change over the course of the program?
+
+The user id is being kept in a Map that has the key be the user's nickname and the id be the value. This value would be
+continuously stored so that the user can manipulate when needed.
+
+- How do you plan on storing what users are in a channel?
+The users would be stored in a treemap since I am using a map to store the user information.
+
+- How do you plan on keeping track of which user is the owner of each channel?
+
+The owner is listed as a seperate variable in the channel class. Using this i sepereate the owner from the other users
+so that I can check if it gets manipulated.
+
+- Justify your choice of collections (Set, Map, or List) for the
+  collections you use in your design.
+
+Use a map in order to store the user information. This is because it can have the key be the user id and the value
+be the number. In addition, it is easier to get and push items to a map especially when we have something to
+find the value such as the user's id. Whenever I was tasked with finding a user in a channel, or manipulating the
+ users in the channel I will use a set. I pull all the users into the set and then manipulate this
+ set further in the method.
+
+============
+=: Task 3 :=
+============
+
+- Did you make any changes to your design while doing this task? Why?
+I mainly kept everything the same. I still chose to use treemaps as well as sets in my implementation.
+
+
+============
+=: Task 4 :=
+============
+
+- Did you make any changes to your design while doing this task? Why?
+
+Everything remained mainly the same. I changed the code slighly in order to factor in whether or not the class is
+private or not in order to see if the user can join the room.
+
+============
+=: Task 5 :=
+============
+
+- How do you plan on keeping track of which channels are invite-only?
+I will have a boolean that would check if the channel is able to take invites. Using this, I am able to make sure that
+if true the user can be added. In addition to this, I will make sure that the person sending the request to invite is
+the owner of the channel and not just a member of the channel.
+
+- Will you make any changes to your work from before in order to make sure that
+  implementing invite-only channels easier?
+
+I would go back to task 4 and make sure it factors whether the channel is set to private or public.
+
+============
+=: Task 6 :=
+============
+
+- Did you have to make any changes to your design in Task 6? Why?
+I believe the method I used was the most ideal method in order to complete the assignment. The use of Maps and treemaps
+as the general structure made it easier to find and get values form the channel class. In addition, using sets inside
+the different functions made it easier to have an iterable list.
+
+- If you were to redo this assignment, what changes (if any) would you make in
+  how you designed your code?
+
+  I would probably make it cleaner when defining the trees and the sets. I might have also made more classes so that the
+  main serverModel class was not as cluttered. I would probably try to understand the test cases more so that I can
+  make more. When I initially started, I thought that the test cases provided would be enough to prove that my functions
+  work. This wasn't the case and I was not able to get some of the mehtods fully working and I am unsure on why.
+  Due to this, I would probably go back to what we did during OCAML and make the test cases first instead of just coding
+  straight away.
